@@ -1,6 +1,4 @@
-# --SCRIPT--
-# --Errors--
-# --Fixed--
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Chaos Support", "Synapse")
  
