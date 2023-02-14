@@ -1,16 +1,15 @@
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Chaos Support", "Synapse")
 
 --Tab--
 local Discord = Window:NewTab("Discord")
 local AttackGames = Window:NewTab("AttackGames")
-
+local Executes = Window:NewTab("Executes")
 
 --Section--
-local Section = Discord:NewSection("Others")
-local Section = AttackGames:NewSection("AttackGames")
-local Section = Executes:NewSection("Executes")
+local Discord = Discord:NewSection("Discord")
+local AttackGames = AttackGames:NewSection("AttackGames")
+local Executes = Executes:NewSection("Executes")
 
 
 --Buttons/Link--
